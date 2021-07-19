@@ -1,0 +1,30 @@
+.title {
+  color: #666e68;
+  margin-bottom: 35px;
+}
+
+.statistics {
+  padding-top: 20px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.statList {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.item {
+  color: #fff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 5px;
+}
